@@ -1,0 +1,41 @@
+.wrapContainer {
+  width: 100%;
+}
+.wrapContainer .footerbarH {
+  width: 100%;
+  height: 50px;
+  background-color: transparent;
+  position: fixed;
+  bottom: 80px;
+  right: 0;
+}
+.wrapContainer .footerbarH .footerbarContainer {
+  float: right;
+  right: 0;
+  bottom: 130px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.wrapContainer .footerbarH .footerbarContainer .iconfont {
+  font-size: 36px;
+}
+.wrapContainer .footerbarH .footerbarContainer .icon-liwu {
+  color: #b4282d;
+}
+.wrapContainer .footerbarH .footerbarContainer .icon-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin-top: 10px;
+  margin-right: 2px;
+  font-size: 20px;
+  color: #666;
+}

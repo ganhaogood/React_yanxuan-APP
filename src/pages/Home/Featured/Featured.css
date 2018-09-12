@@ -1,0 +1,52 @@
+.featured {
+  width: 100%;
+  overflow: hidden;
+}
+.featured .featurdeContainer {
+  width: 1450px;
+  height: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.featured .featurdeContainer .featured_content {
+  float: left;
+  width: 270px;
+  height: 100%;
+  margin-right: 15px;
+}
+.featured .featurdeContainer .featured_content .featured_content_item {
+  text-decoration: none;
+  color: #000;
+  width: 100%;
+  height: 100%;
+  padding: 12px;
+}
+.featured .featurdeContainer .featured_content .featured_content_item img {
+  border-radius: 3px;
+  margin-bottom: 3px;
+}
+.featured .featurdeContainer .featured_content .featured_content_item .featured_content_item_div {
+  margin-left: 12px;
+  font-size: 13px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  float: left;
+}
+.featured .featurdeContainer .featured_content .featured_content_item .featured_content_item_div .featured_content_item_p {
+  margin-top: 3px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 150px;
+}
+.featured .featurdeContainer .featured_content .featured_content_item .featured_content_item_div .small {
+  font-size: 10px;
+}
+.featured .featurdeContainer .featured_content .featured_content_item .featured_content_item_price {
+  float: right;
+  color: #b4282d;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 9px;
+}

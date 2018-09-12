@@ -1,0 +1,188 @@
+@media only screen and (-webkit-device-pixel-ratio: 2) {
+  .border-1px::before {
+    transform: scaleY(0.5);
+  }
+}
+@media only screen and (-webkit-device-pixel-ratio: 3) {
+  .border-1px::before {
+    transform: scaleY(0.333333);
+  }
+}
+::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.nav_content {
+  width: 100%;
+}
+.nav_content .nav_yanxuan {
+  width: 100%;
+  padding: 8px;
+  zoom: 1;
+}
+.nav_content .nav_yanxuan .logo {
+  width: 20%;
+  height: 20%;
+  vertical-align: middle;
+  float: left;
+  margin-top: 2px;
+}
+.nav_content .nav_yanxuan .searchItem {
+  width: 77%;
+  height: 60%;
+  padding: 6px;
+  border-radius: 5px;
+  background-color: #eee;
+  margin-left: 7px;
+  float: left;
+  vertical-align: middle;
+  text-align: center;
+}
+.nav_content .nav_yanxuan .searchItem .iconSearch {
+  margin-right: 3px;
+  display: inline-block;
+}
+.nav_content .nav_yanxuan .searchItem .searchFont {
+  display: inline-block;
+}
+.nav_content .wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+.nav_content .wrapper .nav_tab {
+  width: 700px;
+  height: 30px;
+  padding-right: 5px;
+  padding-left: 5px;
+  white-space: nowrap;
+  position: relative;
+  border: none;
+}
+.nav_content .wrapper .nav_tab:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #d9d9d9;
+  transform: scaleY(0.5);
+}
+.nav_content .wrapper .nav_tab .nav_tab_item {
+  display: inline-block;
+  text-align: center;
+  line-height: 27px;
+  position: relative;
+  margin-right: 20px;
+  clear: both;
+}
+.nav_content .wrapper .nav_tab .nav_tab_item .nav_tab_item_span {
+  font-size: 14px;
+  width: 100%;
+  padding-left: 4px;
+  padding-right: 5px;
+}
+.nav_content .wrapper .nav_tab .nav_tab_item .line {
+  width: 100%;
+  height: 2px;
+  background-color: #b4282d;
+  display: inline-block;
+  position: absolute;
+  top: 27px;
+  left: 0;
+}
+.nav_content .wrapper .nav_tab .nav_tab_item .active {
+  color: #b4282d;
+}
+.nav_content .home_nav {
+  position: relative;
+  border: none;
+  height: 200px;
+  background: #fff;
+}
+.nav_content .home_nav:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #e4e4e4;
+  transform: scaleY(0.5);
+}
+.nav_content .home_nav .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.nav_content .home_nav .swiper-container .swiper-wrapper {
+  width: 100%;
+  height: 100%;
+}
+.nav_content .home_nav .swiper-container .swiper-wrapper .swiper-slide {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.nav_content .home_nav .swiper-container .swiper-wrapper .swiper-slide img {
+  width: 100%;
+  height: 100%;
+}
+.nav_content .home_nav .swiper-container .swiper-wrapper .swiper-slide .link_to_food {
+  width: 25%;
+}
+.nav_content .home_nav .swiper-container .swiper-wrapper .swiper-slide .link_to_food .food_container {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 0;
+}
+.nav_content .home_nav .swiper-container .swiper-wrapper .swiper-slide .link_to_food .food_container img {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+.nav_content .home_nav .swiper-container .swiper-wrapper .swiper-slide .link_to_food span {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 13px;
+  color: #666;
+}
+.nav_content .home_nav .swiper-container .swiper-pagination {
+  width: 100%;
+}
+.nav_content .home_nav .swiper-container .swiper-pagination .swiper-pagination-bullet {
+/*样式不对*/
+  width: 20px !important;
+  height: 2px !important;
+  border-radius: 5px;
+  background-color: transparent;
+}
+.nav_content .home_nav .swiper-container .swiper-pagination >span.swiper-pagination-bullet-active {
+  background: #fff;
+}
+.nav_content .nav_description {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+.nav_content .nav_description .nav_footer {
+  display: inline-block;
+  font-size: 12px;
+  margin-right: 20px;
+}
+.nav_content .nav_description .icon01 {
+  display: inline-block;
+  width: 15px;
+  height: 12px;
+  font-size: 12px;
+  color: #b4282d;
+}
