@@ -16,6 +16,8 @@ import './Home.css'
 import './delete.css'
 
 export default class Home extends Component{
+
+
   render(){
     return(
       <div className='homeContainer'>

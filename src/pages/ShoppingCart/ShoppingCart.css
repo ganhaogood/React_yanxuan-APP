@@ -1,0 +1,68 @@
+.ShoppingCartContainer {
+  width: 100%;
+  height: 100%;
+  background-color: #eee;
+}
+.ShoppingCartContainer .wrap {
+  width: 100%;
+  height: 660px;
+  overflow: hidden;
+  background-color: #eee;
+}
+.ShoppingCartContainer .wrap .wrap_header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  background-color: #fff;
+  width: 100%;
+}
+.ShoppingCartContainer .wrap .wrap_header .wrap_header_span {
+  font-size: 18px;
+}
+.ShoppingCartContainer .wrap .wrap_header .wrap_header_a {
+  font-size: 16px;
+  position: absolute;
+  right: 20px;
+  color: #b4282d;
+  text-decoration: none;
+}
+.ShoppingCartContainer .wrap .wrap_title {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+.ShoppingCartContainer .wrap .wrap_title >li {
+  float: left;
+  width: 33%;
+  margin: 3px 5px;
+  color: #7e8c8d;
+  font-size: 12px;
+}
+.ShoppingCartContainer .wrap .wrap_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+}
+.ShoppingCartContainer .wrap .wrap_content .wrap_img {
+  width: 50%;
+}
+.ShoppingCartContainer .wrap .wrap_content .title {
+  font-size: 12px;
+}
+.ShoppingCartContainer .wrap .wrap_content .login {
+  height: 40px;
+  background-color: #b4282d;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 5px;
+  margin-top: 10px;
+  color: #fff;
+  width: 170px;
+}

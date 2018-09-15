@@ -1,0 +1,334 @@
+.personalContainer .personalContent {
+  padding-top: 50px;
+  width: 100%;
+  height: 665px;
+  background-color: #f2f5f4;
+  overflow: hidden;
+}
+.personalContainer .personalContent .personalContent_login {
+  height: 300px;
+  width: 100%;
+}
+.personalContainer .personalContent .personalContent_login .personalContent_login_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70%;
+  width: 100%;
+}
+.personalContainer .personalContent .personalContent_login .personalContent_login_img >img {
+  width: 100px;
+}
+.personalContainer .personalContent .personalContent_login .phoneLogin {
+  width: 100%;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.personalContainer .personalContent .personalContent_login .phoneLogin .phoneLogin_header {
+  width: 100%;
+  height: 60%;
+  background-color: #f2f5f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.personalContainer .personalContent .personalContent_login .phoneLogin .phoneLogin_header .phoneLogin_header_number {
+  width: 90%;
+  height: 50px;
+  text-align: left;
+  font-size: 16px;
+  line-height: 50px;
+  outline: none;
+  border-width: 0;
+  background-color: #f2f5f4;
+  border-bottom: 1px solid #ccc;
+  padding: 6px;
+}
+.personalContainer .personalContent .personalContent_login .phoneLogin .phoneLogin_header .phoneLogin_header_code {
+  width: 90%;
+  height: 50px;
+  padding: 6px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  line-height: 50px;
+}
+.personalContainer .personalContent .personalContent_login .phoneLogin .phoneLogin_header .phoneLogin_header_code .phone_code {
+  font-size: 16px;
+  outline: none;
+  border-width: 0;
+  background-color: #f2f5f4;
+}
+.personalContainer .personalContent .personalContent_login .phoneLogin .phoneLogin_header .phoneLogin_header_code .code {
+  font-size: 16px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  line-height: 40px;
+  padding: 0 5px;
+}
+.personalContainer .personalContent .personalContent_login .phoneLogin .phoneLogin_footer {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 18px;
+  height: 20%;
+}
+.personalContainer .personalContent .personalContent_login .phoneLogin .phoneLogin_footer .question {
+  text-decoration: none;
+  font-size: 13px;
+}
+.personalContainer .personalContent .personalContent_login .phoneLogin .phoneLogin_footer .password {
+  float: right;
+  display: inline-block;
+  text-decoration: none;
+  margin-right: -100px;
+  font-size: 13px;
+}
+.personalContainer .personalContent .personalContent_login .phoneLogin .phoneLogin_button {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.personalContainer .personalContent .personalContent_login .phoneLogin .phoneLogin_button .phoneLogin_button_login {
+  width: 90%;
+  margin-top: 4px;
+  background-color: #b4282d;
+  line-height: 40px;
+  border-radius: 3px;
+  color: #fff;
+  height: 60px;
+}
+.personalContainer .personalContent .personalContent_login .phoneLogin .phoneLogin_button .phoneLogin_button_else {
+  width: 90%;
+  margin-top: 4px;
+  background-color: #fff;
+  border-radius: 3px;
+  border: 1px solid #b4282d;
+  line-height: 40px;
+  color: #000;
+  height: 50%;
+}
+.personalContainer .personalContent .personalContent_login .phoneLogin .phoneLogin_button .phoneLogin_button_else_r {
+  font-size: 12px;
+  margin-top: 10px;
+}
+.personalContainer .personalContent .personalContent_login .phoneLogin .phoneLogin_button .phoneLogin_button_else_r .icon-go {
+  font-size: 12px;
+}
+.personalContainer .personalContent .personalContent_login .emailLogin {
+  width: 100%;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.personalContainer .personalContent .personalContent_login .emailLogin .emailLogin_header_number {
+  width: 90%;
+  height: 33%;
+  text-align: left;
+  border-width: 0;
+  outline: none;
+  font-size: 16px;
+  line-height: 50px;
+  background-color: #f2f5f4;
+  border-bottom: 1px solid #ccc;
+  padding: 6px;
+}
+.personalContainer .personalContent .personalContent_login .emailLogin .emailLogin_header_code {
+  width: 90%;
+  height: 33%;
+  text-align: left;
+  font-size: 16px;
+  background-color: #f2f5f4;
+  border-width: 0;
+  outline: none;
+  line-height: 50px;
+  border-bottom: 1px solid #ccc;
+  padding: 6px;
+}
+.personalContainer .personalContent .personalContent_login .emailLogin .emailLogin_footer {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 18px;
+  height: 30%;
+}
+.personalContainer .personalContent .personalContent_login .emailLogin .emailLogin_footer .emailLogin_question {
+  text-decoration: none;
+  font-size: 13px;
+}
+.personalContainer .personalContent .personalContent_login .emailLogin .emailLogin_footer .emailLogin_password {
+  text-decoration: none;
+  font-size: 13px;
+}
+.personalContainer .personalContent .personalContent_login .emailLogin .emailLogin_login_btn_shouji {
+  height: 104px;
+  background-color: #b4282d;
+  border-radius: 2px;
+  width: 90%;
+  justify-content: center;
+  margin-top: 20px;
+  align-items: center;
+  display: flex;
+  margin-bottom: 10px;
+}
+.personalContainer .personalContent .personalContent_login .emailLogin .emailLogin_login_btn_shouji >span {
+  margin-left: 4px;
+}
+.personalContainer .personalContent .personalContent_login .emailLogin .emailLogin_login_btn_youxiang {
+  margin-bottom: 10px;
+  height: 50%;
+  background-color: #fff;
+  border-radius: 2px;
+  border: 1px solid #b4282d;
+  color: #000;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.personalContainer .personalContent .personalContent_login .emailLogin .emailLogin_login_btn_youxiang >span {
+  margin-left: 4px;
+}
+.personalContainer .personalContent .personalContent_login .phoneRegister {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.personalContainer .personalContent .personalContent_login .phoneRegister .phoneRegister_header_number {
+  width: 90%;
+  height: 33%;
+  text-align: left;
+  font-size: 16px;
+  line-height: 50px;
+  border-bottom: 1px solid #ccc;
+  padding: 6px;
+}
+.personalContainer .personalContent .personalContent_login .phoneRegister .phoneRegister_header_code {
+  width: 90%;
+  height: 33%;
+  text-align: left;
+  font-size: 16px;
+  line-height: 50px;
+  border-bottom: 1px solid #ccc;
+  padding: 6px;
+}
+.personalContainer .personalContent .personalContent_login .phoneRegister .phoneRegister_footer {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 18px;
+  height: 30%;
+}
+.personalContainer .personalContent .personalContent_login .phoneRegister .phoneRegister_footer .phoneRegister_question {
+  text-decoration: none;
+  font-size: 13px;
+}
+.personalContainer .personalContent .personalContent_login .phoneRegister .phoneRegister_footer .phoneRegister_password {
+  text-decoration: none;
+  font-size: 13px;
+}
+.personalContainer .personalContent .personalContent_login .personalContent_login_btn {
+  height: 130px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 14px;
+  align-items: center;
+  flex-direction: column;
+}
+.personalContainer .personalContent .personalContent_login .personalContent_login_btn .personalContent_login_btn_shouji {
+  height: 50%;
+  background-color: #b4282d;
+  border-radius: 2px;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-bottom: 10px;
+}
+.personalContainer .personalContent .personalContent_login .personalContent_login_btn .personalContent_login_btn_shouji >span {
+  margin-left: 4px;
+}
+.personalContainer .personalContent .personalContent_login .personalContent_login_btn .personalContent_login_btn_youxiang {
+  margin-bottom: 10px;
+  height: 50%;
+  background-color: #fff;
+  border-radius: 2px;
+  border: 1px solid #b4282d;
+  color: #000;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.personalContainer .personalContent .personalContent_login .personalContent_login_btn .personalContent_login_btn_youxiang >span {
+  margin-left: 4px;
+}
+.personalContainer .personalContent .personalContent_login .personalContent_login_btn .personalContent_login_btn_zhuce {
+height
+  width: 90%;
+  color: #000;
+  display: flex;
+  justify-content: center;
+}
+.personalContainer .personalContent .personalContent_login .personalContent_login_btn .personalContent_login_btn_zhuce >span {
+  font-size: 12px;
+}
+.personalContainer .personalContent .personalContent_login .personalContent_login_btn .personalContent_login_btn_zhuce .iconfont {
+  vertical-align: middle;
+  font-size: 12px;
+}
+.personalContainer .personalContent .personalContent_title {
+  position: absolute;
+  bottom: 40px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.personalContainer .personalContent .personalContent_title .personalContent_title_qq {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  padding: 0 6px;
+  border-right: 1px solid #e3e3e2;
+  border-left: 1px solid #e3e3e2;
+}
+.personalContainer .personalContent .personalContent_title .personalContent_title_qq >span {
+  margin-left: 6px;
+}
+.personalContainer .personalContent .personalContent_title .personalContent_title_weixin {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  padding: 0 6px;
+}
+.personalContainer .personalContent .personalContent_title .personalContent_title_weixin >span {
+  margin-left: 6px;
+}
+.personalContainer .personalContent .personalContent_title .personalContent_title_weibo {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  padding: 0 6px;
+}
+.personalContainer .personalContent .personalContent_title .personalContent_title_weibo >span {
+  margin-left: 6px;
+}

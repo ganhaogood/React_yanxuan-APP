@@ -1,0 +1,589 @@
+.knowledgeContainer .knowledgeHeader {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 45px;
+  background-color: #fafafa;
+  display: flex;
+  align-items: center;
+  flex: 1;
+  justify-content: center;
+}
+.knowledgeContainer .knowledgeHeader .icon_left {
+  width: 31%;
+  height: 100%;
+  padding: 5px;
+}
+.knowledgeContainer .knowledgeHeader .icon_left .icon_home {
+  font-size: 30px;
+}
+.knowledgeContainer .knowledgeHeader .icon_middle {
+  width: 31%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.knowledgeContainer .knowledgeHeader .icon_middle img {
+  width: 66%;
+  height: 54%;
+}
+.knowledgeContainer .knowledgeHeader .icon_right {
+  width: 33%;
+  height: 100%;
+  padding: 5px;
+}
+.knowledgeContainer .knowledgeHeader .icon_right .icon_search {
+  font-size: 27px;
+  float: right;
+  display: inline-block;
+  margin-right: 10px;
+}
+.knowledgeContainer .knowledgeHeader .icon_right .icon_cart {
+  font-size: 28px;
+  float: right;
+}
+.knowledgeContainer .knowledgeSwiperContainer {
+  height: 220px;
+  margin-top: 45px;
+  width: 100%;
+}
+.knowledgeContainer .knowledgeSwiperContainer .swiper-container {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.knowledgeContainer .knowledgeSwiperContainer .swiper-container .swiper-wrapper {
+  margin-top: 10px;
+  width: 90%;
+  height: 100%;
+}
+.knowledgeContainer .knowledgeSwiperContainer .swiper-container .swiper-wrapper .swiper-slide {
+  width: 100%;
+}
+.knowledgeContainer .knowledgeSwiperContainer .swiper-container .swiper-wrapper .swiper-slide .swiper-slide_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e3e3e2;
+}
+.knowledgeContainer .knowledgeSwiperContainer .swiper-container .swiper-wrapper .swiper-slide .swiper-slide_div img {
+  width: 100%;
+  border-radius: 5px;
+}
+.knowledgeContainer .knowledgeArticleContainer {
+  width: 100%;
+  height: 120px;
+}
+.knowledgeContainer .knowledgeArticleContainer .knowledge_article {
+  width: 500px;
+  height: 120px;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 5px;
+}
+.knowledgeContainer .knowledgeArticleContainer .knowledge_article .knowledge_article_div {
+  float: left;
+  height: 100%;
+  padding: 5px;
+  overflow: hidden;
+  white-space: nowrap;
+  flex-wrap: nowrap;
+}
+.knowledgeContainer .knowledgeArticleContainer .knowledge_article .knowledge_article_div .knowledge_article_div_a {
+  display: inline-block;
+  width: 90px;
+  height: 100%;
+  text-decoration: none;
+  color: #000;
+  position: relative;
+}
+.knowledgeContainer .knowledgeArticleContainer .knowledge_article .knowledge_article_div .knowledge_article_div_a .knowledge_article_div_a_img {
+  float: left;
+  height: 100%;
+}
+.knowledgeContainer .knowledgeArticleContainer .knowledge_article .knowledge_article_div .knowledge_article_div_a .knowledge_article_div_a_img img {
+  width: 86%;
+  border-radius: 4px;
+}
+.knowledgeContainer .knowledgeArticleContainer .knowledge_article .knowledge_article_div .knowledge_article_div_a .knowledge_article_div_a_font {
+  text-align: right;
+  padding: 2px 3px 0 0;
+  width: 86%;
+  height: 20px;
+  position: absolute;
+  border-radius: 4px;
+  top: 0;
+  left: 0;
+  background-color: #ccc;
+  color: #fff;
+  font-size: 12px;
+}
+.knowledgeContainer .knowledgeArticleContainer .knowledge_article .knowledge_article_div .knowledge_article_div_a .knowledge_article_div_a_p {
+  z-index: 100;
+  position: absolute;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  bottom: -13px;
+  left: 0;
+  width: 86%;
+  height: 30px;
+  margin-right: 14px;
+  margin-top: 2px;
+  text-align: center;
+  font-size: 13px;
+}
+.knowledgeContainer .recommend_container_font {
+  width: 100%;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+}
+.knowledgeContainer .tenContainer {
+  display: block;
+  width: 100%;
+  height: 250px;
+}
+.knowledgeContainer .tenContainer .list {
+  height: 100%;
+}
+.knowledgeContainer .tenContainer .list .swiper-wrapper_a {
+  width: 90%;
+  height: 100%;
+  flex-wrap: nowrap;
+  text-decoration: none;
+  color: #666;
+  display: flex;
+  float: left;
+  white-space: nowrap;
+  overflow: hidden;
+  align-items: center;
+  flex-direction: column;
+  justify-content: right;
+  background-image: url("http://yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/tenFifteen-2a1d0ea11b.png");
+  background-repeat: no-repeat;
+  background-size: 94%;
+  margin-left: 10px;
+}
+.knowledgeContainer .tenContainer .list .swiper-wrapper_a .swiper-wrapper_a_top {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  height: 60%;
+}
+.knowledgeContainer .tenContainer .list .swiper-wrapper_a .swiper-wrapper_a_top .swiper-wrapper_a_top01 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.knowledgeContainer .tenContainer .list .swiper-wrapper_a .swiper-wrapper_a_top .swiper-wrapper_a_top01 .smallLine {
+  display: inline-block;
+  width: 18px;
+  height: 2px;
+  margin: 0 4px;
+  background-color: #666;
+}
+.knowledgeContainer .tenContainer .list .swiper-wrapper_a .swiper-wrapper_a_top .swiper-wrapper_a_top02 {
+  margin-top: 17px;
+  color: #000;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.knowledgeContainer .tenContainer .list .swiper-wrapper_a .swiper-wrapper_a_bottom {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 27%;
+  padding-left: 5px;
+}
+.knowledgeContainer .tenContainer .list .swiper-wrapper_a .swiper-wrapper_a_bottom img {
+  height: 30px;
+  border-radius: 50%;
+  margin-left: -3px;
+  margin-right: 5px;
+  width: 30px;
+}
+.knowledgeContainer .recommendContainer {
+  width: 100%;
+  height: 310px;
+  text-align: center;
+}
+.knowledgeContainer .recommendContainer .YanxuanContainer01 {
+  width: 100%;
+  height: 300px;
+  text-align: center;
+}
+.knowledgeContainer .recommendContainer .YanxuanContainer01 .recommend_container_content {
+  display: inline-block;
+  width: 349px;
+  text-align: center;
+  position: relative;
+  margin-top: 5px;
+  padding-bottom: 30px;
+  border: 1px solid #e3e3e2;
+  border-radius: 5px;
+}
+.knowledgeContainer .recommendContainer .YanxuanContainer01 .recommend_container_content .yanxuan_tuijian {
+  position: absolute;
+  left: 20px;
+  top: 5px;
+  width: 63px;
+  height: 20px;
+  border-radius: 10px;
+  border: 1px solid #7e8c8d;
+  text-align: center;
+  line-height: 20px;
+  background-color: #f5f5f5;
+  font-size: 12px;
+}
+.knowledgeContainer .recommendContainer .YanxuanContainer01 .recommend_container_content .recommend_container_img {
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+}
+.knowledgeContainer .recommendContainer .YanxuanContainer01 .recommend_container_content .recommend_container_p {
+  font-size: 14px;
+}
+.knowledgeContainer .recommendContainer .YanxuanContainer01 .recommend_container_content .recommend_container_p >span {
+  display: inline-block;
+}
+.knowledgeContainer .recommendContainer .YanxuanContainer01 .recommend_container_content .recommend_container_p .recommend_container_p_new {
+  font-size: 19px;
+  float: left;
+  margin-left: 8px;
+  margin-top: 4px;
+}
+.knowledgeContainer .recommendContainer .YanxuanContainer01 .recommend_container_content .recommend_container_p .recommend_container_p_price {
+  margin-top: 4px;
+  font-size: 18px;
+  float: right;
+  margin-right: 8px;
+}
+.knowledgeContainer .recommendContainer .YanxuanContainer01 .recommend_container_content .recommend_container_p .recommend_container_p_des {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  float: left;
+  margin-left: 8px;
+  margin-top: 20px;
+  white-space: nowrap;
+}
+.knowledgeContainer .shareItContainer {
+  width: 100%;
+  height: 170px;
+}
+.knowledgeContainer .shareItContainer .share_it_container_wraper {
+  margin: 10px;
+  display: block;
+  border: 1px solid #ccc;
+  align-items: center;
+  border-radius: 5px;
+}
+.knowledgeContainer .shareItContainer .share_it_container_wraper .share_it_container_wraper_left {
+  display: flex;
+  float: left;
+  align-items: left;
+  padding-left: 10px;
+  margin-top: 40px;
+  flex-direction: column;
+  width: 60%;
+  height: 100%;
+}
+.knowledgeContainer .shareItContainer .share_it_container_wraper .share_it_container_wraper_left .share_it_container_wraper_left_author {
+  display: inline-block;
+}
+.knowledgeContainer .shareItContainer .share_it_container_wraper .share_it_container_wraper_left .share_it_container_wraper_left_author .author {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  border-radius: 50%;
+  display: inline-block;
+}
+.knowledgeContainer .shareItContainer .share_it_container_wraper .share_it_container_wraper_left .share_it_container_wraper_left_author .group {
+  display: inline-block;
+  font-size: 14px;
+}
+.knowledgeContainer .shareItContainer .share_it_container_wraper .share_it_container_wraper_left .share_it_container_wraper_left_author .name {
+  display: inline-block;
+  font-size: 14px;
+}
+.knowledgeContainer .shareItContainer .share_it_container_wraper .share_it_container_wraper_left .share_it_container_wraper_left_dis {
+  margin-top: 5px;
+}
+.knowledgeContainer .shareItContainer .share_it_container_wraper .share_it_container_wraper_left .share_it_container_wraper_left_content {
+  font-size: 12px;
+  margin-top: 3px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.knowledgeContainer .shareItContainer .share_it_container_wraper .share_it_container_wraper_img {
+  float: left;
+  width: 40%;
+  vertical-align: middle;
+  border-radius: 5px;
+  height: 100%;
+  position: relative;
+}
+.knowledgeContainer .shareItContainer .share_it_container_wraper .share_it_container_wraper_img .share_it_container_wraper_img_div {
+  background-color: #fff;
+  font-size: 12px;
+  border-radius: 6px;
+  position: absolute;
+  top: 6px;
+  left: 5px;
+  padding: 2px;
+}
+.knowledgeContainer .shareItContainer .share_it_container_wraper .share_it_container_wraper_img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.knowledgeContainer .YanxuanContainer {
+  width: 100%;
+  height: 300px;
+  text-align: center;
+}
+.knowledgeContainer .YanxuanContainer .recommend_container_content {
+  display: inline-block;
+  width: 349px;
+  text-align: center;
+  position: relative;
+  margin-top: 5px;
+  padding-bottom: 30px;
+  border: 1px solid #e3e3e2;
+  border-radius: 5px;
+}
+.knowledgeContainer .YanxuanContainer .recommend_container_content .yanxuan_tuijian {
+  position: absolute;
+  left: 20px;
+  top: 5px;
+  width: 63px;
+  height: 20px;
+  border-radius: 10px;
+  border: 1px solid #7e8c8d;
+  text-align: center;
+  line-height: 20px;
+  background-color: #f5f5f5;
+  font-size: 12px;
+}
+.knowledgeContainer .YanxuanContainer .recommend_container_content .recommend_container_img {
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+}
+.knowledgeContainer .YanxuanContainer .recommend_container_content .recommend_container_p {
+  font-size: 14px;
+}
+.knowledgeContainer .YanxuanContainer .recommend_container_content .recommend_container_p >span {
+  display: inline-block;
+}
+.knowledgeContainer .YanxuanContainer .recommend_container_content .recommend_container_p .recommend_container_p_new {
+  font-size: 19px;
+  float: left;
+  margin-left: 8px;
+  margin-top: 4px;
+}
+.knowledgeContainer .YanxuanContainer .recommend_container_content .recommend_container_p .recommend_container_p_price {
+  margin-top: 4px;
+  font-size: 18px;
+  float: right;
+  margin-right: 8px;
+}
+.knowledgeContainer .YanxuanContainer .recommend_container_content .recommend_container_p .recommend_container_p_des {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  float: left;
+  margin-left: 8px;
+  margin-top: 20px;
+  white-space: nowrap;
+}
+.knowledgeContainer .swiper-container {
+  width: 100%;
+  height: 250px;
+}
+.knowledgeContainer .YanxuanLOOKContainer {
+  width: 100%;
+  height: 500px;
+}
+.knowledgeContainer .YanxuanLOOKContainer .Yanxuan_LOOK_container_item {
+  width: 100%;
+  height: 100%;
+}
+.knowledgeContainer .YanxuanLOOKContainer .Yanxuan_LOOK_container_item .Yanxuan_LOOK_container_item_author {
+  width: 100%;
+  margin-top: 5px;
+}
+.knowledgeContainer .YanxuanLOOKContainer .Yanxuan_LOOK_container_item .Yanxuan_LOOK_container_item_author .Yanxuan_LOOK_container_item_author_head {
+  margin-left: 10px;
+  border-radius: 50%;
+  vertical-align: middle;
+  width: 26px;
+  height: 26px;
+}
+.knowledgeContainer .YanxuanLOOKContainer .Yanxuan_LOOK_container_item .Yanxuan_LOOK_container_item_author .Yanxuan_LOOK_container_item_author_name {
+  margin-left: 3px;
+  font-size: 14px;
+}
+.knowledgeContainer .YanxuanLOOKContainer .Yanxuan_LOOK_container_item .Yanxuan_LOOK_container_item_content {
+  font-size: 15px;
+  margin-left: 10px;
+}
+.knowledgeContainer .moreCotainer {
+  font-size: 15px;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  position: relative;
+  margin-top: 50px;
+  background-color: #f4f4f4;
+}
+.knowledgeContainer .moreCotainer .line {
+  width: 95%;
+  height: 1px;
+  position: absolute;
+  background-color: #000;
+  top: 50%;
+  left: 3%;
+  z-index: -100;
+}
+.knowledgeContainer .moreCotainer .whiteLine {
+  width: 80px;
+  height: 1px;
+  position: absolute;
+  background-color: #000;
+  top: 50%;
+  left: 39%;
+  z-index: -1;
+}
+.knowledgeContainer .moreCotainer a {
+  text-decoration: none;
+  display: inline-block;
+  width: 60px;
+  z-index: 100;
+  background-color: #f4f4f4;
+  color: #7e8c8d;
+}
+.knowledgeContainer .moreWonderfulContainer {
+  background-color: #f4f4f4;
+  width: 100%;
+  height: 268px;
+}
+.knowledgeContainer .moreWonderfulContainer .moreWonderfulContainer_item {
+  padding: 10px 10px 0 10px;
+  margin-bottom: 10px;
+}
+.knowledgeContainer .moreWonderfulContainer .moreWonderfulContainer_item .moreWonderfulContainer_item_a {
+  width: 100%;
+  height: 100%;
+  padding: 10px 6px;
+  text-decoration: none;
+  color: #000;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.knowledgeContainer .moreWonderfulContainer .moreWonderfulContainer_item .moreWonderfulContainer_item_a img {
+  width: 95%;
+  display: inline-block;
+}
+.knowledgeContainer .moreWonderfulContainer .moreWonderfulContainer_item .moreWonderfulContainer_item_a .moreWonderfulContainer_item_a_p {
+  margin-left: -50px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 10px 2px;
+  font-size: 14px;
+}
+.knowledgeContainer .moreWonderfulContainerWraperThreeContainer {
+  width: 100%;
+}
+.knowledgeContainer .moreWonderfulContainerWraperThreeContainer .moreWonderfulContainerWraperThree {
+  background-color: #f4f4f4;
+  width: 100%;
+  height: 240px;
+}
+.knowledgeContainer .moreWonderfulContainerWraperThreeContainer .moreWonderfulContainerWraperThree .moreWonderfulContainerThree {
+  width: 100%;
+  height: 100%;
+  padding: 10px 10px 0 10px;
+}
+.knowledgeContainer .moreWonderfulContainerWraperThreeContainer .moreWonderfulContainerWraperThree .moreWonderfulContainerThree .moreWonderfulContainer_itemThree {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+.knowledgeContainer .moreWonderfulContainerWraperThreeContainer .moreWonderfulContainerWraperThree .moreWonderfulContainerThree .moreWonderfulContainer_itemThree .moreWonderfulContainer_item_aThree {
+  width: 100%;
+  height: 100%;
+  padding: 10px 6px;
+  text-decoration: none;
+  color: #000;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.knowledgeContainer .moreWonderfulContainerWraperThreeContainer .moreWonderfulContainerWraperThree .moreWonderfulContainerThree .moreWonderfulContainer_itemThree .moreWonderfulContainer_item_aThree .moreWonderfulContainer_item_a_divThree {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.knowledgeContainer .moreWonderfulContainerWraperThreeContainer .moreWonderfulContainerWraperThree .moreWonderfulContainerThree .moreWonderfulContainer_itemThree .moreWonderfulContainer_item_aThree .moreWonderfulContainer_item_a_divThree .moreWonderfulContainer_item_a_div_leftThree {
+  float: left;
+  width: 85%;
+  height: 100%;
+  background-color: #7e8c8d;
+  overflow: hidden;
+  margin-right: 3px;
+}
+.knowledgeContainer .moreWonderfulContainerWraperThreeContainer .moreWonderfulContainerWraperThree .moreWonderfulContainerThree .moreWonderfulContainer_itemThree .moreWonderfulContainer_item_aThree .moreWonderfulContainer_item_a_divThree .moreWonderfulContainer_item_a_div_leftThree img {
+  display: block;
+  vertical-align: middle;
+  width: 100%;
+}
+.knowledgeContainer .moreWonderfulContainerWraperThreeContainer .moreWonderfulContainerWraperThree .moreWonderfulContainerThree .moreWonderfulContainer_itemThree .moreWonderfulContainer_item_aThree .moreWonderfulContainer_item_a_divThree .moreWonderfulContainer_item_a_div_rightThree {
+  float: left;
+  width: 25%;
+  height: 100%;
+}
+.knowledgeContainer .moreWonderfulContainerWraperThreeContainer .moreWonderfulContainerWraperThree .moreWonderfulContainerThree .moreWonderfulContainer_itemThree .moreWonderfulContainer_item_aThree .moreWonderfulContainer_item_a_divThree .moreWonderfulContainer_item_a_div_rightThree img {
+  display: block;
+  vertical-align: middle;
+}
+.knowledgeContainer .moreWonderfulContainerWraperThreeContainer .moreWonderfulContainerWraperThree .moreWonderfulContainerThree .moreWonderfulContainer_itemThree .moreWonderfulContainer_item_aThree .moreWonderfulContainer_item_a_divThree .moreWonderfulContainer_item_a_div_rightThree .haha {
+  display: inline-block;
+  margin-top: 3px;
+}
+.knowledgeContainer .moreWonderfulContainerWraperThreeContainer .moreWonderfulContainerWraperThree .moreWonderfulContainerThree .moreWonderfulContainer_itemThree .moreWonderfulContainer_item_aThree .moreWonderfulContainer_item_a_pThree {
+  margin-left: -50px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 80%;
+  text-overflow: ellipsis;
+  padding: 10px 2px;
+  font-size: 14px;
+}
+.knowledgeContainer .footer {
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+}

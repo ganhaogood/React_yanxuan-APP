@@ -18,7 +18,7 @@ class Main extends Component{
 
   render(){
     const path = this.props.location.pathname
-
+    console.log(path)
 
 
     return(
@@ -26,14 +26,18 @@ class Main extends Component{
         <Switch>
           <Route path='/classify' component={Classify}/>
           <Route path='/knowledge' component={Knowledge}/>
+
           <Route path='/personal' component={Personal}/>
           <Route path='/shoppingcart' component={ShoppingCart}/>
           <Route path='/home' component={Home}/>
-          <Redirect to='/home'/>
+          <Redirect to='/knowledge'/>
         </Switch>
 
         <div className='footerbarH'>
-          <FooterNav/>
+          {
+            path==='/personal'?null :<FooterNav/>
+          }
+
           {path==='/home' ?
             <div className='footerbarContainer'>
               <a className='iconfont icon-liwu' href='http://m.you.163.com/gift/newWapUserGift'/>
